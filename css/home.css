@@ -1,0 +1,53 @@
+/* 最外层view */
+.const{width: 100%;background-color: white; }
+/* 绝对定位加号 */
+.jh{border-radius: 50px;width: 50px;height:50px;background-color: #ffff33;color: black;font-weight: 600;font-size:45px;
+	line-height: 50px;text-align: center;position: fixed;bottom: 3%;right: 3%;z-index: 100;}
+/* 轮播图 */
+.swiper{width: 100%;height: 173px;}
+.swiper-one image{width: 100%;height: 100%;}
+/* 搜索框 */
+.searchInput999 {width:83%;margin: 7px 10px;background: #EFEFF4;border-radius: 30upx;display: flex;align-items: center;justify-content: center;height: 70upx;float: left;}
+.searchBox999 {width: 56upx;height: 56upx;display: flex;justify-content: center;align-items: center;}
+.search999 {width: 32upx;height: 32upx;}
+.input999 {	color: #999;width: 80%;}
+.right{float: left;margin: 11px auto auto 3px;}
+/* 宫格 */
+.gg{width: 100%;height: 100px;background-color: white;margin-top: 17%;}
+.uni-grid{font-size: 10px;}
+/* 横向选项卡 */
+.wuctab{height: 1000px;margin-top: -25px;}
+.wuctab wuc-tab{font-size: 15px;}
+.wuctab .swiper{height: 950px;width: 100%;}
+.swiper-item{width: 100%;text-align: center;height: 950px;}
+.text{color: #3CC51F;}
+/* 正在旅行 */
+/* <!-- scroll-view横向滑动  --> */
+.scroll_box{width: 100%;height: 130rpx;overflow: hidden;background: #fff;white-space: nowrap;margin-top: 2%;}
+.item_a,.item_b,.item_c,.item_d,.item_e,.item_f{width: 180rpx;display: inline-block;}
+.item_book_img{width: 60px;height: 60px;border-radius: 10px;}
+.item_book_img1{width: 100px;height: 60px;border-radius: 10px;}
+.item_book_img2{width: 100px;height: 60px;border-radius: 10px;margin-left: 25px;}
+.item_book_img3{width: 100px;height: 60px;border-radius: 10px;margin-left: 50px;}
+.item_book_img4{width: 100px;height: 60px;border-radius: 10px;margin-left: 50px;}
+/* 旅游列表 */
+.Scenic{width: 100%;height: 845px;border: 1px solid white;}
+.Scenic-left{width: 46%;height: 830px;float: left;margin-left: 3%;margin-top:5px;border: 1px solid white;}
+.Scenic-rigth{width: 46%;height: 830px;float: right;margin-right: 3%;margin-top:5px;border: 1px solid white;}
+/* 左侧布局 */
+.Scenic-left-one{width: 100%;height: 270px;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.Scenic-left-one image{width: 100%;height: 100%;border-radius: 5px ; }
+.Scenic-left-two{width: 100%;height: 270px;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-top: 10px;}
+.Scenic-left-two image{width: 100%;height: 100%;border-radius: 5px ; }
+.Scenic-left-three{width: 100%;height: 270px;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-top: 10px;}
+.Scenic-left-three image{width: 100%;height: 100%;border-radius: 5px ; }
+
+/* 右侧布局 */
+.Scenic-rigth-one{width: 100%;height: 270px;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.Scenic-rigth-one image{width: 100%;height: 100%;border-radius: 5px ; z-index: 1;}
+.Scenic-rigth-two{width: 100%;height: 270px;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-top: 10px;}
+.Scenic-rigth-two image{width: 100%;height: 100%;border-radius: 5px ; z-index: 1;}
+.Scenic-rigth-three{width: 100%;height: 270px;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-top: 10px;}
+.Scenic-rigth-three image{width: 100%;height: 100%;border-radius: 5px ; z-index: 1;}
+/* 底线 */
+.Scenic-bottom{width: 100%;height: 40px;line-height: 45px;font-size: 15px;color: #0062CC;}

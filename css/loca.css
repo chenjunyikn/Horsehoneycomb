@@ -1,0 +1,74 @@
+/* 最外层 */
+.loca{height: 1600px;width: 100%;}
+.ptop{width: 100%;height: 80px;position: fixed;line-height: 80px;top: 0px;background-color: deepskyblue;z-index: 100;}
+/* 定位 */
+.zk{float: left;margin-left: 4%;height: 80px;line-height: 90px;width: 60px;color: white;}
+/* 搜索框 */
+.searchInput999 {width:72%;background: #EFEFF4;border-radius: 30upx;display: flex;align-items: center;justify-content: center;height: 70upx;float: right;margin-top: 30px ;margin-right: 10px;}
+.searchBox999 {width: 56upx;height: 56upx;display: flex;justify-content: center;align-items: center;}
+.search999 {width: 32upx;height: 32upx;}
+.input999 {	color: #999;width: 80%;}
+.right{float: left;margin: 11px auto auto 3px;}
+/* 九宫格 */
+.grid{width: 94%;height:90px;margin-top: 100px;border-bottom: 0.1px solid whitesmoke;margin-left: 3%;}
+/* 横向选项卡 */
+.wuctab{height: 405px;width: 94%;margin-left: 3%;}
+.wuctab wuc-tab{font-size: 15px;}
+.wuctab .swiper{height: 362px;width: 100%;}
+.swiper-item{width: 100%;text-align: center;}
+.text{font-weight: 700;font-size: 16px;color: deepskyblue;}
+/* 玩什么 */
+.play{height: 360px;margin-top: 3px;}
+.play-top{width: 100%;height: 45%;}
+.play-bot{width: 100%;height: 45%;margin-top: 0.5%;}
+.play-top-one{float: left;width: 31%;height: 100%;margin-left: 1.5%;font-weight: 700;font-size: 14px;text-align: left;}
+.play-top-two{float: left;width: 31%;height: 100%;margin-left: 1.5%;font-weight: 700;font-size: 14px;text-align: left;}
+.play-top-three{float: left;width: 31%;height: 100%;margin-left: 1.5%;font-weight: 700;font-size: 14px;text-align: left;}
+.play-top-one image{width: 100%;height: 70%;border-radius: 20upx;margin-bottom: 5px;}
+.play-top-two image{width: 100%;height: 70%;border-radius: 20upx;margin-bottom: 5px;}
+.play-top-three image{width: 100%;height: 70%;border-radius: 20upx;margin-bottom: 5px;}
+.play-bot-one{float: left;width: 31%;height: 100%;margin-left: 1.5%;font-weight: 700;font-size: 14px;text-align: left;}
+.play-bot-two{float: left;width: 31%;height: 100%;margin-left: 1.5%;font-weight: 700;font-size: 14px;text-align: left;}
+.play-bot-three{float: left;width: 31%;height: 100%;margin-left: 1.5%;font-weight: 700;font-size: 14px;text-align: left;}
+.play-bot-one image{width: 100%;height: 70%;border-radius: 20upx;margin-bottom: 5px;}
+.play-bot-two image{width: 100%;height: 70%;border-radius: 20upx;margin-bottom: 5px;}
+.play-bot-three image{width: 100%;height: 70%;border-radius: 20upx;margin-bottom: 5px;}
+/* 查看更多 */
+.look{color: royalblue;font-size: 14px;}
+/* 住哪里 */
+.home{width: 100%;height: 230px;;}
+.znl{width: 100%;height: 30px;font-weight: 700;font-size: 20px;padding-top: 5px;}
+.znl text{margin-left: 4%;margin-bottom: 3%;}
+/* <!-- scroll-view横向滑动  --> */
+.scroll_box{width: 100%;height: 180px;overflow: hidden;background: #fff;white-space: nowrap;}
+.item_a,.item_b,.item_c,.item_d,.item_e{width: 120px;height: 160px;display: inline-block;}
+.item_book_img{width: 100%;height: 100%;border-radius: 10px;margin-left: 15px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img1{width: 100%;height: 100%;border-radius: 10px;margin-left: 25px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img2{width: 100%;height: 100%;border-radius: 10px;margin-left: 35px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img3{width: 100%;height: 100%;border-radius: 10px;margin-left: 45px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img4{width: 100%;height: 100%;border-radius: 10px;margin-left: 55px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-right: 10px;}
+/* 旅行商城 */
+.shopping{width: 100%;height: 420px;margin: 0 auto;}
+.shopp-one,.shopp-two,.shopp-three{width: 92%;height: 110px;display: inline-block;margin-left: 4%;margin-top:3px;}
+.shopp-one_img{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.shopp-two_img{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.shopp-three_img{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+/* 热门游记 */
+.notes{width: 100%;height: 220px;}
+.chakan{float: right;font-size: 15px;font-weight: 400;color: darkgray;margin-right: 2%;}
+/* <!-- scroll-view横向滑动  --> */
+.scroll_notes{width: 100%;height: 180px;overflow: hidden;background: #fff;white-space: nowrap;}
+.notes_a,.notes_b,.notes_c,.notes_d,.notes_e{width: 150px;height: 160px;display: inline-block;}
+.notes_book_img{width: 100%;height: 100%;border-radius: 10px;margin-left: 15px;}
+.notes_book_img1{width: 100%;height: 100%;border-radius: 10px;margin-left: 25px;}
+.notes_book_img2{width: 100%;height: 100%;border-radius: 10px;margin-left: 35px;}
+.notes_book_img3{width: 100%;height: 100%;border-radius: 10px;margin-left: 45px;}
+.notes_book_img4{width: 100%;height: 100%;border-radius: 10px;margin-left: 55px;margin-right: 10px;}
+/* 周边目的地 */
+.circum{width: 100%;height: 190px;}
+.circum-one,.circum-two,.circum-three{width: 23%;height: 130px;float: left;margin-left: 4%;border-radius: 10px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.circum-one image{width: 100%;height: 100%;border-radius: 10px;}
+.circum-two image{width: 100%;height: 100%;border-radius: 10px;}
+.circum-three image{width: 100%;height: 100%;border-radius: 10px;}
+.map{color: royalblue;font-size: 15px;width: 100%;height: 30px;text-align: center;}
+.hr{width: 95%;margin: 0 auto;border-bottom: 1px solid whitesmoke;}

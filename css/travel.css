@@ -1,0 +1,79 @@
+.travel{width: 100%;height: 1200px;}
+/* 绝对定位广告 */
+#fixed{position: fixed;top: 86%;left: 75%;width: 80px;height: 80px;z-index: 50;}
+/* 虚线 */
+.hr{border-bottom: 1px solid whitesmoke;margin-top: 3px;width: 94%;margin-left: 3%;}
+/* 轮播图 */
+.swiper{width: 100%;height: 173px;}
+.swiper-one image{width: 100%;height: 100%;}
+/* 导航栏 */
+.body{/*距离顶部范围应该在88-95范围内*/ padding-top: 90upx; top: var(--status-bar-height);}
+.uni-nav-bar{height: 20px;background-color: chartreuse;}
+/* 搜索框 */
+.searchInput999 {width:80%;margin-top: 7px;margin-left: 4%;background: #EFEFF4;border-radius: 30upx;display: flex;align-items: center;justify-content: center;height: 70upx;float: left;}
+.searchBox999 {width: 56upx;height: 56upx;display: flex;justify-content: center;align-items: center;}
+.search999 {width: 32upx;height: 32upx;}
+.input999 {	color: #999;width: 80%;}
+.right{float: left;margin: 11px auto auto 3px;}
+.searchInput999-right{float: right;margin-top: 13px;margin-right: 4%;}
+/* 宫格 */
+.gg{width: 94%;height: 150px;background-color: white;margin-top: 15%;margin-left: 3%;}
+.uni-grid{font-size: 10px;}
+/* 三个广告 */
+.adrate{width: 90%;height: 78px;margin: 0 auto;border-bottom: 0.1px solid whitesmoke;}
+.adrate-left{width: 32%;height: 75%;background-color: white;float: left;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);border-radius: 5px;}
+.adrate-right{width: 32%;height: 75%;background-color: white;float: left;margin-left: 2%;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);border-radius: 5px;}
+.adrate-center{width: 32%;height: 75%;background-color: white;float: right;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);border-radius: 5px;}
+.adrate-left-left,.adrate-right-left,.adrate-center-left{width: 68%;height: 100%;float: left;}
+.adrate-left-left p,.adrate-center-left p,.adrate-right-left p{font-size: 15px;font-weight: bold;margin-left: 3px;margin-top: 3px;}
+.adrate-left-left span,.adrate-center-left span,.adrate-right-left span{font-size: 12px;;margin-left:3px;}
+.adrate-left-right,.adrate-right-right,.adrate-center-right{width: 30%;height: 100%;float: right;}
+.adrate-left-right image,.adrate-center-right image,.adrate-right-right image{width: 100%;height: 50%;margin-top: 50%;}
+/* 1元抢爆 */
+.money{width: 95%;height: 100px;margin: 0 auto;margin-top: 5px;}
+.money image{width: 100%;height:95%;margin: 0 auto;}
+/* 横向四个 */
+.jq{width: 95%;height:120px;margin: 0 auto;}
+.jq-one{float: left;width: 24%;height: 100%;border-radius: 7px;}
+.jq-one image{width: 100%;height: 100%;border-radius: 7px;}
+.jq-two{float: left;width: 24%;height: 100%;border-radius: 7px;margin-left: 1%;}
+.jq-two image{width: 100%;height: 100%;border-radius: 7px;}
+.jq-three{float: left;width: 24%;height: 100%;border-radius: 7px;margin-left: 1%;}
+.jq-three image{width: 100%;height: 100%;border-radius: 7px;}
+.jq-fore{float: left;width: 24%;height: 100%;border-radius: 7px;margin-left: 1%;}
+.jq-fore image{width: 100%;height: 100%;border-radius: 7px;}
+/* 专属推荐 */
+.exclusive-top{width: 94%;height: 30px;font-weight: bold;margin-left: 3%;margin-top: 10px;}
+.exclusive-top1{width: 80px;height: 30px;float: left;line-height: 30px;font-weight: bold;margin-left: 3px;}
+.exclusive-top2{width: 50px;height: 30px;float: left;}
+.exclusive-top2 image{width: 100%;height: 100%;float: left;}
+/* <!-- scroll-view横向滑动  --> */
+.scroll_box{width: 100%;height: 180px;overflow: hidden;background: #fff;white-space: nowrap;}
+.item_a{width: 115px;height: 160px;display: inline-block;margin-left: 3.5%;margin-top: 5px;}
+.item_b,.item_c,.item_d,.item_e{width: 115px;height: 160px;display: inline-block;margin-top: 5px;margin-left: 1.5%;}
+.item_book_img{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img1{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img2{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img3{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img4{width: 100%;height: 100%;border--radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-right: 10px;}
+/* 找低价/* 左半拉 */ 
+.lowprice{width: 94%;margin-left: 3%;margin-top: 10px;height: 260px;}
+.low-top{height: 30px;font-weight: bold;line-height: 30px;}
+.low-left{float: left;width: 49%;height: 220px;background: url(../../static/travel/ml1.png) no-repeat -0px -0px;-webkit-background-size: 100% 100%;border-radius: 8px;}
+.low-right{float: right;width: 49%;height: 220px;background: url(../../static/travel/ml1.png) no-repeat -0px -0px;-webkit-background-size: 100% 100%;border-radius: 8px;}
+.low-left-top{width: 100%;height: 30px;font-size: 14px;line-height: 30px;padding-left: 3% ;font-weight: bold;}
+.low-left-botton{width: 92%;margin-left: 4%;height: 170px;background-color: white;margin-top: 10px;border-radius:6px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .3);}
+.low-left-botton image{width: 100%;height: 65%;border-top-left-radius:6px ;border-top-right-radius:6px ;}
+.tglry{width: 100%;height: 12%;padding-left: 3px;font-weight: bold;font-size: 14px;}
+.mj{height: 16%;width: 100%;margin-top: 3px;}
+.mj-left{width: 48%;height: 75%;float: left;font-size: 12px;color: white;background-color: orangered;border-radius: 7px;margin-left: 1.5%;text-align: center;}
+.mj-right{width: 35%;height: 100%;float: right;}
+.mj-right-left{width: 70%;height: 100%;color: red;font-size: 14px;float: left;}
+.mj-right-right{width: 30%;height: 100%;font-size: 14px;float: left;}
+/* 找低价右半拉 */
+.low-right-center{width: 92%;margin-left: 3%;height: 28%;background-color: white;margin-top: 10px;border-radius:6px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .3);margin-bottom: 7px;}
+.tjjp{width: 100%;height: 40%;font-weight: bold;font-size: 13px;padding-top: 5px;padding-left: 5px;}
+.tj{width: 100%;height: 40%;font-weight: bold;font-size: 13px;margin-left: 3%;}
+.tj-left{width: 70%;height: 100%;float: left;font-weight: 100;margin-top: 5px;}
+.tj-right{width:22%;height: 80%;float: left;font-weight: 100;background-color: orangered;border-radius: 5px;color: white;padding-left: 2px;margin-top: 2%;text-align: center;}
+.load{width: 100%;height: 40px;}

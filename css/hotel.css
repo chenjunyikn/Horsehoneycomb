@@ -1,0 +1,25 @@
+.home{width: 100%;height: 1500px;}
+/* 轮播图 */
+.swiper{width: 100%;height: 173px;}
+.swiper-one image{width: 100%;height: 100%;}
+/* 横向五个广告 */
+.guanggao{width: 96%;margin-left: 2%;margin-top: 15px;height: 50px;}
+.guanggao-one{width: 19%;height: 100%;float: left;}
+.guanggao-two,.guanggao-three,.guanggao-fore,.guanggao-five{width: 19%;height: 100%;float: left;margin-left: 1%;}
+.guanggao-one image,.guanggao-two image,.guanggao-three image,.guanggao-fore image,.guanggao-five image{width: 100%;height: 100%;border-radius: 8px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+/* 超值特惠*/
+.shoppings{width: 96%;height: 250px;margin-left: 2%;}
+.shoppings-one{width: 100%;height: 25px;font-size: 18px;font-weight: bold;margin-top: 5px;}
+.shoppings-two{width: 100%;height: 35px;margin-top: 5px;}
+.shoppings-two-left{width: 30%;height: 100%;float: left;border-radius: 5px;}
+.shoppings-two-left image{width: 100%;height: 100%;border-radius: 5px;}
+.shoppings-two-center{width: 27%;height: 100%;margin-left: 1.5%;float: left;border-radius: 5px;color: skyblue;background-color: antiquewhite;font-size: 15px;line-height: 35px;text-align: center;}
+.shoppings-two-right{width: 32%;height: 100%;margin-left: 1.5%;float: left;border-radius: 5px;color: skyblue;background-color: antiquewhite;font-size: 15px;line-height: 35px;text-align: center;}
+/* <!-- scroll-view横向滑动  --> */
+.scroll_box{width: 100%;height: 180px;overflow: hidden;background: #fff;white-space: nowrap;margin-top: 5px;}
+.item_a{width: 115px;height: 160px;display: inline-block;margin-top: 5px;}
+.item_b,.item_c,.item_d,.item_e{width: 115px;height: 160px;display: inline-block;margin-top: 5px;margin-left: 1.5%;}
+.item_book_img,.item_book_img1,.item_book_img2,.item_book_img3{width: 100%;height: 100%;border-radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);}
+.item_book_img4{width: 100%;height: 100%;border--radius: 5px;box-shadow: 0 5upx 20upx 0upx rgba(0, 0, 150, .1);margin-right: 10px;}
+/* 曼谷怎么玩 */
+.mgplay{width: 96%;height: 150px;margin-left: 2%;border: 1px solid firebrick;}
